@@ -61,7 +61,7 @@ export const AnimatedText = ({ text, el: Wrapper = "p", className, once = true, 
       clearTimeout(delayStartTimeout);
       clearTimeout(timeout);
     };
-  }, [controls, isInView, repeatDelay]);
+  }, [controls, isInView, repeatDelay, delay]);
 
   return (
     <Wrapper className={className}>
