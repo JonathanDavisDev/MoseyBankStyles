@@ -45,17 +45,16 @@ const config: Config = {
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/container-queries'),
-    function({ addBase }) {
+    function({ addBase }: { addBase: any }) {
      addBase({
         'html': { fontSize: "10px" },
         'body': {fontSize: "1.6rem"}
       })
     },
-    function ({ addBase, theme }) {
+    function ({ addBase, theme }: { addBase: any; theme: any }) {
       // Plugin to pull all tailwind colors out to CSS variables--this is only necessary to support non-tailwind CSS copied over.
-      function extractColorVars (colorObj, colorGroup = '') {
+      function extractColorVars(colorObj: Record<string, string>, colorGroup = ''): Record<string, string> {
         return Object.keys(colorObj).reduce((vars, colorKey) => {
-
           const value = colorObj[colorKey];
           const cssVariable = colorKey === "DEFAULT" ? `-${colorGroup}` : `-${colorGroup}-${colorKey}`;
 

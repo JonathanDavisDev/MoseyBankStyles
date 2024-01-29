@@ -24,7 +24,7 @@ export default function SavingsPage() {
       <ContainerBlock columns={1} marginTop={"extraLarge"} marginBottom={"large"} gap={"small"}>
         <TextBlock overline="More than competitive" heading="4.8%* APY" headingSize={"extraLarge"} description="<p>Make your money make money.</p>" center={true}></TextBlock>
       </ContainerBlock>
-      <ContainerBlock columns={1} marginTop={"medium"} marginBottom={"medium"} gap={"medium"} color={"none"}>
+      <ContainerBlock columns={1} marginTop={"medium"} marginBottom={"medium"} gap={"medium"}>
         <CardBlock
           imageLayout={"after"}
           heading={"More savings, less effort"}

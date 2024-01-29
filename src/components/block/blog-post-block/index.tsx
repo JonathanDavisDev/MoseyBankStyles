@@ -14,7 +14,7 @@ type BlogPostCardProps = {
 };
 
 const BlogPostCard: React.FC<BlogPostCardProps> = ({ blogPost }) => {
-  const { title, description, category, url, image, date } = blogPost;
+  const { title, description, category, url, image } = blogPost;
   // Use blog posts fields to generate the fields needed.
 
   return (
