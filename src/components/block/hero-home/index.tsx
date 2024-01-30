@@ -19,7 +19,7 @@ const HomeHero = ({ heading = "", subheading = "" }: HomeHeroProps) => {
   }, []);
 
   return (
-    <section className="py-20 lg:py-40 w-full overflow-hidden relative">
+    <section className="py-20 lg:py-40 w-full overflow-hidden relative outer-padding">
       <div className="container mx-auto text-center flex flex-col items-center max-w-[580px] relative z-10 pt-[40px]">
         <motion.div
           initial={{ opacity: 0, clipPath: "circle(0% at 100%)" }}

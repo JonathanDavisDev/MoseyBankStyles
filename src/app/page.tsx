@@ -126,12 +126,14 @@ export default function Home() {
       <ContainerBlock columns={1} marginTop={"extraLarge"} marginBottom={"large"} gap={"none"}>
         <TextBlock center={true} overline="the more you know" heading="We picked out some wordy bits just for you" headingSize={"medium"} />
       </ContainerBlock>
-      <ContainerBlock columns={4} marginTop={"large"} marginBottom="extraLarge" gap={"large"}>
+      <ContainerBlock columns={3} marginTop={"large"} marginBottom="extraLarge" gap={"large"}>
         <BlogPostCard
           blogPost={{
             title: "The power of flexibility: How to balance for the future",
             description: "We all know achieving a healthy balance between work and family can be challenging for working parents and carers.",
             category: "Life & Travel",
+            author: "Marie Gruen",
+            date: "January 30, 2024",
             image: { src: "https://placekitten.com/290/180", alt: "Kitten", width: 290, height: 180 },
             url: "#",
           }}
@@ -141,6 +143,8 @@ export default function Home() {
             title: "The power of flexibility: How to balance for the future",
             description: "We all know achieving a healthy balance between work and family can be challenging for working parents and carers.",
             category: "Life & Travel",
+            author: "Marie Gruen",
+            date: "January 30, 2024",
             image: { src: "https://placekitten.com/290/180", alt: "Kitten", width: 290, height: 180 },
             url: "#",
           }}
@@ -150,15 +154,8 @@ export default function Home() {
             title: "The power of flexibility: How to balance for the future",
             description: "We all know achieving a healthy balance between work and family can be challenging for working parents and carers.",
             category: "Life & Travel",
-            image: { src: "https://placekitten.com/290/180", alt: "Kitten", width: 290, height: 180 },
-            url: "#",
-          }}
-        />
-        <BlogPostCard
-          blogPost={{
-            title: "The power of flexibility: How to balance for the future",
-            description: "We all know achieving a healthy balance between work and family can be challenging for working parents and carers.",
-            category: "Life & Travel",
+            author: "Marie Gruen",
+            date: "January 30, 2024",
             image: { src: "https://placekitten.com/290/180", alt: "Kitten", width: 290, height: 180 },
             url: "#",
           }}

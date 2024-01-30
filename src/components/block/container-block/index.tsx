@@ -8,8 +8,8 @@ interface ContainerBlockProps {
   columns: 1 | 2 | 3 | 4 | 5 | 6;
   paddingTop?: paddingSize;
   paddingBottom?: paddingSize;
-  marginTop: paddingSize;
-  marginBottom: paddingSize;
+  marginTop: marginSize;
+  marginBottom: marginSize;
   backgroundImage?: Image;
   children?: React.ReactNode;
   gap: gapSize;
